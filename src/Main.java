@@ -58,10 +58,10 @@ public class Main {
         System.out.println();
         var hoursPerWorker=8;
         var stuff=totalhours/hoursPerWorker;
-        System.out.println("Всего работников в компании "+stuff+" человек");
+        System.out.println("Всего работников в компании "+stuff+" человек.");
         var stuff94=stuff+94;
         var totalHours94=stuff94*hoursPerWorker;
-        System.out.println("Если в компании работает "+stuff94+" человека, то всего "+totalHours94+" часа может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает "+stuff94+" человека, то всего "+totalHours94+" часа может быть поделено между сотрудниками.");
 
 
 
