@@ -74,22 +74,21 @@ public class Main {
         byte c = 44;
         byte d = 15;
         byte e = 9;
-        int result = a * (b + (c - d * e));
-        int result2 = -result;
+        int result = -a * (b + (c - d * e));
         System.out.println();
         System.out.println("Здание №6");
-        System.out.println(result2);
+        System.out.println(result);
 
 
     }
     public static void additionalTask7(){
         int a = 5;
         int b = 7;
-
-        a = b;
-        b =(b/a)+(b/a)+(b/a)+(b/a)+(b/a);
-       System.out.println();
-       System.out.println("Здание №7");
+        a = a + b;//a=12
+        b = a - b;//b=5
+        a = a - b;//a=7
+        System.out.println();
+        System.out.println("Здание №7");
         System.out.println("a = "+a);
         System.out.println("b = "+b);
 
@@ -97,7 +96,7 @@ public class Main {
     public static void additionalTask8(){
         int a = 482;
         int b;
-        b=(a/a)*7;
+        b=(a/10)%10;
         System.out.println();
         System.out.println("Задание №8");
         System.out.println("b = " + b);
